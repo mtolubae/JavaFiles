@@ -55,6 +55,15 @@ public class Book {
                 getTitle() == book.getTitle()  &&
                 getNumberOfPages() == book.getNumberOfPages();
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "title='" + title + '\'' +
+                ", author=" + Arrays.toString(author) +
+                ", numberOfPages=" + numberOfPages +
+                '}';
+    }
 }
 
 class MainBook{

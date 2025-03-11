@@ -98,5 +98,7 @@ public class CollectionsFramework {
         ad.addFirst(-1);
         ad.addLast(7);
         System.out.println(ad);
+
     }
 }
+
