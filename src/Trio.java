@@ -73,5 +73,6 @@ class Storage<T>{
         Storage<String> ss = new Storage<>();
         for(int i=1; i<5;i++) ss.addItem(i+""+i+"");
         ss.displayAll();
+
     }
 }
